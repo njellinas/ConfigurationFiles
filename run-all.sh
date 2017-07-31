@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
-./Git/set-git-prompt.sh
-./Vim/set-vim.sh
-./tmux/set-tmux.sh
+pushd Git
+./set-git-prompt.sh
+popd
+pushd Vim
+./set-vim.sh
+popd
+pushd tmux
+./set-tmux.sh
+popd
