@@ -9,3 +9,6 @@ popd
 pushd tmux
 ./set-tmux.sh
 popd
+pushd Bash
+./set-bash.sh
+popd
